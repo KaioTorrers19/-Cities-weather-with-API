@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+*{
+  font-family:'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: linear-gradient(180deg, #594cee 0%, #8dd0f5 100%);
+}
+
+
+
+.shadow-custom{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.description-marge{
+  margin: 0.5rem 0;
+}
+
+.descrption-umid{
+  border-right: 1px solid #fff;
+}
